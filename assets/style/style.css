@@ -416,3 +416,26 @@ example_4_blokc{
 .hamster{
     margin-bottom: 160px;
 }
+.slider{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    width: 416px;
+    background-color: rgba(19, 19, 19, 0.05);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.block-text{
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
