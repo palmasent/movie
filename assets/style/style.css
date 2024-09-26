@@ -1,6 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "EB Garamond", serif;
+    margin: 0 auto;
+}
 .container{
-    width: 1300px;
-    margin: auto;
+    max-width: 1300px;
+    padding: 0 4px;
+    margin: 0 auto;
+}
+.example-3-title{
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .header{
     color: white;
