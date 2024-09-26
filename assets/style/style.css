@@ -42,7 +42,256 @@ body{
 }
 
 ul {
-    list-style-type: square;
+    list-style: none;
+}
+.example-3-banner{
+    max-width: 526px;
+    width: 100%;
+    height: 742px;
+}
+.example-3{
+    display: flex;
+    gap: 134px;
+}
+.example-3-description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.example-3-description-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.example-3-description-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.example-3-blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.example-3-btn{
+    background: rgba(5, 176, 147, 1);
+    padding: 15px 30px;
+    max-width: 175px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.img-blocks{
+    display: flex;
+    gap: 24px;
+}
+.img-blocks img{
+    max-width: 306px;
+}
+.news-section{
+    display: flex;
+    justify-content: space-between;
+}
+.news-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+
+}
+.excursions-section{
+    background: rgba(25, 25, 25, 0.05);
+}
+.news-title{
+    font-size: 46px;
+    margin-bottom: 60px;
+}
+
+.news-container {
+    display: flex;
+    gap: 20px;
+}
+
+.news-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 296px;
+}
+
+.news-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.news-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-details {
+    font-size: 16px;
+    color: #666;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    height: 304px;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 40px;
+}
+
+.calendar-month {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.calendar-block-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.calendar-grid button {
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.calendar-grid button.active {
+    background-color: #05b093;
+    color: white;
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.calendar-nav button {
+    background-color: #05b093;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calendar-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+    position: relative;
+}
+
+.calendar-image {
+    width: 100%;
+    height: 300px;
+}
+
+.calendar-title {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.calendar-content {
+    padding: 20px;
+}
+.calendar-left-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.announcements-container {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.announcements-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.announcements-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.announcements-all {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.calendar-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.announcements-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.announcement-item{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.announcement-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #05b093;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
 }
 .example_2_zagalovok{
     text-align: center;
@@ -147,4 +396,23 @@ example_4_blokc{
 .example_4_img{
     margin: 0 auto;
     display: block;
+}
+
+.announcement-day {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.announcement-month {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.announcement-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.hamster{
+    margin-bottom: 160px;
 }
